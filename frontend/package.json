@@ -1,0 +1,26 @@
+{
+  "name": "tungu-frontend",
+  "version": "0.0.1",
+  "description": "Tungu frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "npm run lint",
+    "lint": "prettier --check pages/*.js",
+    "format": "prettier --write pages/*.js"
+  },
+  "author": "Julien M'Poy",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  }
+}
