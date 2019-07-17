@@ -1,7 +1,7 @@
 {
-  "name": "tungu-frontend",
+  "name": "mundumal-frontend",
   "version": "0.0.1",
-  "description": "Tungu frontend",
+  "description": "Mundumal frontend",
   "main": "index.js",
   "scripts": {
     "dev": "next",
